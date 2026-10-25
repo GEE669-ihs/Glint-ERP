@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glint ERP</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<aside id="side">
+  <div class="brand">Glint<i>✦</i><small>ERP</small></div>
+  <nav id="menu" aria-label="Menu utama"></nav>
+  <div class="side-foot"><span id="clock"></span><small>Data tersimpan di browser ini</small></div>
+</aside>
+<main>
+  <header class="top"><div><h1 id="title"></h1><p id="sub"></p></div><div id="actions"></div></header>
+  <section id="view" aria-live="polite"></section>
+</main>
+<div id="modal" class="modal" role="dialog" aria-modal="true"><div class="box"><div class="box-h"><h3 id="mt"></h3><button class="x" data-act="close" aria-label="Tutup">✕</button></div><form id="mf"></form></div></div>
+<div id="toast" class="toast" role="status"></div>
+<script src="js/db.js"></script><script src="js/ui.js"></script><script src="js/views.js"></script><script src="js/app.js"></script>
+</body></html>
